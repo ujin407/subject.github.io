@@ -1,0 +1,285 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix ex:   <http://example.org/edu#> .
+
+##########################
+# 국어 성취기준 (10개)
+##########################
+
+ex:Std_국어_12문학01-01
+    dc:title "문학이 인간과 세계에 대한 이해를 돕는 자료" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-01 .
+
+ex:Web_국어_12문학01-01
+    dc:title "문학의 가치와 기능 - 교육자료" ;
+    dc:identifier <https://example.org/ko_lit_value> .
+
+ex:Std_국어_12문학01-02
+    dc:title "문학 갈래의 특성과 문학 맥락 이해" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-02 .
+
+ex:Web_국어_12문학01-02
+    dc:title "문학 갈래 소개" ;
+    dc:identifier <https://example.org/ko_lit_genres> .
+
+ex:Std_국어_12문학01-03
+    dc:title "한국 문학의 범위와 변화 탐구" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-03 .
+
+ex:Web_국어_12문학01-03
+    dc:title "한국 문학 연대표" ;
+    dc:identifier <https://example.org/ko_lit_history> .
+
+ex:Std_국어_12문학01-04
+    dc:title "한국 문학과 역사 상관성" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-04 .
+
+ex:Web_국어_12문학01-04
+    dc:title "문학 속 시대상" ;
+    dc:identifier <https://example.org/ko_lit_context> .
+
+ex:Std_국어_12문학01-05
+    dc:title "한국·외국 작품 비교 읽기" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-05 .
+
+ex:Web_국어_12문학01-05
+    dc:title "비교 문학 자료" ;
+    dc:identifier <https://example.org/ko_vs_world_lit> .
+
+ex:Std_국어_12문학01-06
+    dc:title "문학 작품 내용·형식 연관성 이해" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-06 .
+
+ex:Web_국어_12문학01-06
+    dc:title "형식과 내용 분석" ;
+    dc:identifier <https://example.org/ko_lit_form_content> .
+
+ex:Std_국어_12문학01-07
+    dc:title "공감적·비판적 문학 감상" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-07 .
+
+ex:Web_국어_12문학01-07
+    dc:title "문학 작품 비평 방법" ;
+    dc:identifier <https://example.org/ko_lit_critique> .
+
+ex:Std_국어_12문학01-08
+    dc:title "문학적 재구성과 창작" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-08 .
+
+ex:Web_국어_12문학01-08
+    dc:title "창의적 글쓰기" ;
+    dc:identifier <https://example.org/ko_lit_creative> .
+
+ex:Std_국어_12문학01-09
+    dc:title "매체별 문학 표현 수용" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-09 .
+
+ex:Web_국어_12문학01-09
+    dc:title "문학과 매체" ;
+    dc:identifier <https://example.org/ko_lit_media> .
+
+ex:Std_국어_12문학01-10
+    dc:title "문학과 자아·타자 이해" ;
+    ex:subject "국어" ;
+    ex:matchesResource ex:Web_국어_12문학01-10 .
+
+ex:Web_국어_12문학01-10
+    dc:title "문학의 삶과 소통" ;
+    dc:identifier <https://example.org/ko_lit_understanding> .
+
+##########################
+# 사회 성취기준 (10개)
+##########################
+
+ex:Std_사회_9역03-01
+    dc:title "동아시아 국제 질서와 문화 탐구" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역03-01 .
+
+ex:Web_사회_9역03-01
+    dc:title "동아시아 역사 개요" ;
+    dc:identifier <https://example.org/asian_history_overview> .
+
+ex:Std_사회_9역03-02
+    dc:title "인도·서아시아·지중해 정치·종교" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역03-02 .
+
+ex:Web_사회_9역03-02
+    dc:title "서아시아 역사와 종교" ;
+    dc:identifier <https://example.org/west_asia_religion> .
+
+ex:Std_사회_9역03-03
+    dc:title "크리스트교 세계 정치·교류" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역03-03 .
+
+ex:Web_사회_9역03-03
+    dc:title "유럽 종교·정치사" ;
+    dc:identifier <https://example.org/europe_religion_politics> .
+
+ex:Std_사회_9역04-01
+    dc:title "송·몽골 시대 교역권 성장" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역04-01 .
+
+ex:Web_사회_9역04-01
+    dc:title "유라시아 교역 역사" ;
+    dc:identifier <https://example.org/eurasia_trade> .
+
+ex:Std_사회_9역04-02
+    dc:title "명·청·에도·무굴 비교" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역04-02 .
+
+ex:Web_사회_9역04-02
+    dc:title "아시아 제국 비교사" ;
+    dc:identifier <https://example.org/asia_empire_compare> .
+
+ex:Std_사회_9역04-03
+    dc:title "오스만·유럽 근대 변화" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역04-03 .
+
+ex:Web_사회_9역04-03
+    dc:title "오스만 제국과 유럽" ;
+    dc:identifier <https://example.org/ottoman_europe> .
+
+ex:Std_사회_9역05-01
+    dc:title "시민혁명과 국민국가" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역05-01 .
+
+ex:Web_사회_9역05-01
+    dc:title "시민혁명" ;
+    dc:identifier <https://example.org/civic_revolution> .
+
+ex:Std_사회_9역05-02
+    dc:title "산업화·제국주의 영향" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역05-02 .
+
+ex:Web_사회_9역05-02
+    dc:title "산업혁명과 제국주의" ;
+    dc:identifier <https://example.org/industrial_imperialism> .
+
+ex:Std_사회_9역05-03
+    dc:title "제국주의 대응과 국민 국가" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역05-03 .
+
+ex:Web_사회_9역05-03
+    dc:title "제국주의와 아시아" ;
+    dc:identifier <https://example.org/imperialism_asia> .
+
+ex:Std_사회_9역06-01
+    dc:title "세계대전과 20세기 질서" ;
+    ex:subject "사회" ;
+    ex:matchesResource ex:Web_사회_9역06-01 .
+
+ex:Web_사회_9역06-01
+    dc:title "세계대전 개요" ;
+    dc:identifier <https://example.org/world_wars_overview> .
+
+##########################
+# 과학 성취기준 (10개)
+##########################
+
+ex:Std_과학_4과14-01
+    dc:title "생태계 구성 요소 조사" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과14-01 .
+
+ex:Web_과학_4과14-01
+    dc:title "생태계 구성" ;
+    dc:identifier <https://example.org/ecosystem_components> .
+
+ex:Std_과학_4과14-02
+    dc:title "먹이그물 표현" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과14-02 .
+
+ex:Web_과학_4과14-02
+    dc:title "먹이그물 학습자료" ;
+    dc:identifier <https://example.org/food_web> .
+
+ex:Std_과학_4과14-03
+    dc:title "생태계 영향과 보전 실천" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과14-03 .
+
+ex:Web_과학_4과14-03
+    dc:title "생태계 보전 방법" ;
+    dc:identifier <https://example.org/ecosystem_conservation> .
+
+ex:Std_과학_4과15-01
+    dc:title "기체의 무게 설명" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과15-01 .
+
+ex:Web_과학_4과15-01
+    dc:title "기체의 무게 실험" ;
+    dc:identifier <https://example.org/gas_weight_experiment> .
+
+ex:Std_과학_4과15-02
+    dc:title "기체 부피 관찰" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과15-02 .
+
+ex:Web_과학_4과15-02
+    dc:title "기체 부피와 조건" ;
+    dc:identifier <https://example.org/gas_volume> .
+
+ex:Std_과학_4과15-03
+    dc:title "기체 종류와 성질" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과15-03 .
+
+ex:Web_과학_4과15-03
+    dc:title "기체 성질 학습" ;
+    dc:identifier <https://example.org/gas_properties> .
+
+ex:Std_과학_4과15-04
+    dc:title "기체 장치 설계" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과15-04 .
+
+ex:Web_과학_4과15-04
+    dc:title "기체 장치 만들기" ;
+    dc:identifier <https://example.org/gas_device_design> .
+
+ex:Std_과학_4과16-01
+    dc:title "기후변화 현상 인식" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과16-01 .
+
+ex:Web_과학_4과16-01
+    dc:title "기후변화 개요" ;
+    dc:identifier <https://example.org/climate_change_overview> .
+
+ex:Std_과학_4과16-02
+    dc:title "기후변화 영향 설명" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과16-02 .
+
+ex:Web_과학_4과16-02
+    dc:title "기후변화 영향" ;
+    dc:identifier <https://example.org/climate_change_impacts> .
+
+ex:Std_과학_4과16-03
+    dc:title "기후변화 대응 실천" ;
+    ex:subject "과학" ;
+    ex:matchesResource ex:Web_과학_4과16-03 .
+
+ex:Web_과학_4과16-03
+    dc:title "기후 대응 실천" ;
+    dc:identifier <https://example.org/climate_action> .
